@@ -9,6 +9,6 @@ namespace WebApi.Helpers
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder
-                .UseNpgsql("Host=localhost;Database=SPS;Username=postgres;Password=32769!");
+                .UseNpgsql("Host=localhost;Database=SPS;Username=postgres;Password=pass");
     }
 }
